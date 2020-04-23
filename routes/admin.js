@@ -3,7 +3,7 @@ const router = require('express').Router();
 const adminController = require('../controllers/adminController');
 const adminMiddleware = require('../middlewares/adminAuth');
 
-router.post('/', adminController.newLogin);
+router.post('/admin', adminController.newLogin);
 
 router.get('/', adminMiddleware.checkLogin, adminController.index);
 
