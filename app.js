@@ -36,6 +36,7 @@ app.use(cookieParser('82e4e438a0705fabf61f9854e3b575af'));
 //   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 // });
 
+app.use('/', adminRouter);
 app.use('/rooms', roomsRouter);
 app.use('/chat', chatRouter);
 app.use('/admin', adminRouter);
