@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 mongoose.set('useFindAndModify', false);
 
-const MONGOURI =  `mongodb+srv://wanja:wanja@cluster0-t8c4x.mongodb.net/FullChat?retryWrites=true&w=majority`
+const MONGOURI = "mongodb+srv://lorran:BCDV1007@cluster0-lyl06.gcp.mongodb.net/FullChat?retryWrites=true&w=majority";
 
 const InitiateMongoServer = async () => {
     try {
