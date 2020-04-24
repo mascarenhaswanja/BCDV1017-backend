@@ -24,7 +24,7 @@ exports.newLogin = async (req, res, next) => {
 
     const login = req.body.login;
     const password = req.body.password;
- 
+
     if (!login || !password) {
         res.status(401).send({ message: 'Invalid login/password' });
     }
