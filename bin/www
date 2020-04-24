@@ -99,7 +99,7 @@ function onListening() {
   debug('Listening on ' + bind);
 }
 
-const io = require("socket.io")(server)
+const io = require("socket.io")('https://bcdv1017-backend.herokuapp.com/')
 
 // New connection 
 io.on('connection', socket => {
