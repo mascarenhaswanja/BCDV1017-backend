@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
     "serverstart": "SET DEBUG=bcdv1008-finalproject:* npm run devstart",
-    "lint": "eslint src/js",
+    "lint": "eslint src/js"
   },
   
   "dependencies": {
