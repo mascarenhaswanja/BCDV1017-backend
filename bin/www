@@ -99,7 +99,7 @@ function onListening() {
   debug('Listening on ' + bind);
 }
 
-const io = require("socket.io")(server)
+const io = require("socket.io").listen(server)
 
 // New connection 
 io.on('connection', socket => {
